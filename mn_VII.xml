@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Edizione digitale del sonetto 7 di Ugo Foscolo secondo la seconda edizione milanese, stampata per Agnello Nobile nell'estate 1803</title>
+            <respStmt>
+               <resp>Codfica</resp>
+               <persName xml:id="FP">Filippo Pelacci</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Università di Parma</publisher>
+            <pubPlace>Università di Parma</pubPlace>
+            <date>20??</date>
+            <availability>
+               <p> Questa risorsa è liberamente accessibile per uso personale o scientifico. Ogni uso commerciale è vietato. </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl xml:id="Mn" type="volume">
+               <title>Poesie di Ugo Foscolo Seconda edizione accresciuta <emph>Sollicitae oblivia vitae</emph> Hor.</title>
+               <author>Ugo Foscolo</author>
+               <editor>Agnello Nobile</editor>
+               <date notBefore="1803-07-01">1803</date>
+               <pubPlace>Milano</pubPlace>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p>Si codifica qui il sonetto 7 secondo il testo della seconda edizione milanese, stampata per Agnello Nobile nell'estate 1803</p>
+      </encodingDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div xml:id="S7"> 
+            <lg xml:id="S7S1">
+               <l xml:id="S7V1">Solcata ho fronte, occhi incavati intenti,</l>
+               <l xml:id="S7V2">Crin fulvo, emunte guance, ardito aspetto,</l>
+               <l xml:id="S7V3">Labbro tumido acceso, e tersi denti,</l>
+               <l xml:id="S7V4">Capo chino, bel collo, e largo petto;</l>
+          </lg>
+          <lg xml:id="S7S2">
+               <l xml:id="S7V5">Giuste membra; vestir semplice eletto;</l>
+               <l xml:id="S7V6">Ratti i passi, i pensier, gli atti, gli accenti;</l>
+               <l xml:id="S7V7">Sobrio, umano, leal, prodigo, schietto;</l>
+               <l xml:id="S7V8">Avverso al mondo, avversi a me gli eventi:</l>
+          </lg>
+          <lg xml:id="S7S3">
+               <l xml:id="S7V9">Talor di lingua, e spesso di man prode;</l>
+               <l xml:id="S7V10">Mesto i più giorni e solo, ognor pensoso,</l>
+               <l xml:id="S7V11">Pronto, iracondo, inquïeto, tenace:</l>
+          </lg>
+          <lg xml:id="S7S4">
+               <l xml:id="S7V12">Di vizj ricco e di virtù, do lode</l>
+               <l xml:id="S7V13">Alla ragion, ma corro ove al cor piace</l>
+               <l xml:id="S7V14">Morte sol mi darà fama e riposo.</l>
+          </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
